@@ -14,9 +14,11 @@ cd frontend
 npm install
 npm run dev
 ```
+
 O frontend estará disponível em `http://localhost:5173` por padrão.
 
 ### Estrutura de pastas do frontend
+
 - `src/components/`: Componentes React reutilizáveis
 - `src/pages/`: Páginas principais da aplicação
 - `src/hooks/`: Custom hooks do React
@@ -31,9 +33,11 @@ cd backend
 npm install
 npm run start:dev
 ```
+
 O backend estará disponível em `http://localhost:3000` por padrão.
 
 ### Estrutura de pastas do backend
+
 - `src/controllers/`: Controllers (rotas e requisições HTTP)
 - `src/services/`: Services (lógica de negócio)
 - `src/modules/`: Modules (organização de funcionalidades)
@@ -46,6 +50,7 @@ O backend estará disponível em `http://localhost:3000` por padrão.
 ---
 
 **Observação:**
+
 - Não há autenticação ou lógica de API avançada neste template.
 - Não há configuração Docker neste template.
 - Siga os comentários nas pastas para entender a função de cada uma.

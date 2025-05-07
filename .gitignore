@@ -1,0 +1,52 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
+
+# Misc
+*.local
+
+# Ignore frontend build artifacts
+frontend/dist/
+
+# Ignore backend build artifacts
+backend/dist/
+backend/build/
+
+# Ignore compiled TypeScript
+backend/**/*.js
+backend/**/*.js.map
+frontend/**/*.js
+frontend/**/*.js.map
+
+# Ignore frontend and backend dist folders
+frontend/dist/*
+backend/dist/*
